@@ -4,7 +4,7 @@ import LoginPage from './pages/login';
 import SignupPage from './pages/signup';
 import NotesDashboard from './pages/dashboard';
 import Header from './components/header';
-import ProtectedRoute from './components/ProtectedRoute';
+import ProtectedRoute from './components/protectedRoute.jsx';
 
 export const AuthContext = createContext();
 
